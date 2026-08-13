@@ -1,0 +1,448 @@
+{
+ "metadata": {
+  "titulo": "Ley Federal del Derecho de Autor (LFDA) — Título XII: De los Procedimientos Administrativos (infracciones y sanciones)",
+  "ambito": "Texto normativo vigente (no es jurisprudencia ni criterio interpretativo)",
+  "fuente": "Diario Oficial de la Federación",
+  "publicacion_original": "Nueva Ley publicada en el Diario Oficial de la Federación el 24 de diciembre de 1996",
+  "ultima_reforma": "DOF 14-05-2026",
+  "nota_vigencia": "Corpus generado a partir de un documento de trabajo del usuario (texto vigente, última reforma DOF 14-05-2026, sin artículos transitorios). Ante cualquier duda sobre reformas posteriores, verificar el texto oficial vigente en el portal del DOF (https://www.dof.gob.mx) o en la Cámara de Diputados (https://www.diputados.gob.mx/LeyesBiblio/).",
+  "titulo_legal_numero": "TÍTULO XII",
+  "titulo_legal_nombre": "De los Procedimientos Administrativos",
+  "capitulos": [
+   {
+    "codigo": "I",
+    "titulo": "De las Infracciones en Materia de Derechos de Autor",
+    "articulo_inicial": "229"
+   },
+   {
+    "codigo": "II",
+    "titulo": "De las Infracciones en Materia de Comercio",
+    "articulo_inicial": "231"
+   },
+   {
+    "codigo": "III",
+    "titulo": "De la Impugnación Administrativa",
+    "articulo_inicial": "237"
+   }
+  ],
+  "leyenda_materia": {
+   "infraccion_autor": "Infracciones administrativas en materia de derecho de autor propiamente dicho (art. 229), sancionadas por el INDAUTOR.",
+   "infraccion_comercio": "Infracciones administrativas en materia de comercio (piratería, elusión de medidas tecnológicas de protección, gestión de derechos, notificación y retiro/'notice and takedown' en plataformas digitales — arts. 231 a 236), sancionadas por el IMPI conforme al art. 234.",
+   "impugnacion_administrativa": "Recursos de los afectados por actos y resoluciones del Instituto o del IMPI en estos procedimientos (arts. 237-238)."
+  },
+  "nota_delitos": "Este corpus NO incluye los delitos en materia de derechos de autor: esos están tipificados en el Título Vigésimo Sexto del Código Penal Federal (arts. 424 a 429), fuera de la LFDA. Consultar el corpus separado corpus_cpf_delitos_autor.json (skill consulta-delitos-autor).",
+  "relacion_con_otros_corpus": "Este corpus es un subconjunto especializado del corpus_lfda_derecho_autor.json (mismos 15 artículos, Título XII completo). Para jurisprudencia relacionada (categorías L y M del corpus de tesis: infracciones administrativas y delitos), ver data/corpus_tesis_derechos_autor.json.",
+  "total_articulos": 15,
+  "rango_articulos": "229 a 238"
+ },
+ "articulos": [
+  {
+   "numero": "229",
+   "capitulo_codigo": "I",
+   "capitulo_nombre": "De las Infracciones en Materia de Derechos de Autor",
+   "texto_intro": "Son infracciones en materia de derecho de autor:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tCelebrar el editor, empresario, productor, empleador, organismo de radiodifusión o licenciatario un contrato que tenga por objeto la transmisión de derechos de autor en contravención a lo dispuesto por la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II.\tInfringir el licenciatario los términos de la licencia obligatoria que se hubiese declarado conforme al artículo 146 la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "III",
+     "texto": "III.\tOstentarse como sociedad de gestión colectiva sin haber obtenido el registro correspondiente ante el Instituto;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "IV",
+     "texto": "IV.\tNo proporcionar, sin causa justificada, al Instituto, siendo administrador de una sociedad de gestión colectiva los informes y documentos a que se refieren los artículos 204 fracción IV y 207 de la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "V",
+     "texto": "V.\tNo insertar en una obra publicada las menciones a que se refiere el artículo 17 de la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "VI",
+     "texto": "VI.\tOmitir o insertar con falsedad en una edición los datos a que se refiere el artículo 53 de la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "VII",
+     "texto": "VII.\tOmitir o insertar con falsedad las menciones a que se refiere el artículo 54 de la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "VIII",
+     "texto": "VIII.\tNo insertar en un fonograma las menciones a que se refiere el artículo 132 de la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "IX",
+     "texto": "IX.\tPublicar una obra, estando autorizado para ello, sin mencionar en los ejemplares de ella el nombre del autor, traductor, compilador, adaptador o arreglista;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "X",
+     "texto": "X.\tPublicar una obra, estando autorizado para ello, con menoscabo de la reputación del autor como tal y, en su caso, del traductor, compilador, arreglista o adaptador;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "XI",
+     "texto": "XI.\tPublicar antes que la Federación, los Estados o los Municipios y sin autorización las obras hechas en el servicio oficial;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "XII",
+     "texto": "XII.\tEmplear dolosamente en una obra un título que induzca a confusión con otra publicada con anterioridad;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "XIII",
+     "texto": "XIII.\tFijar, representar, publicar, efectuar alguna comunicación o utilizar en cualquier forma una obra literaria y artística, protegida conforme al capítulo III, del Título VII, de la presente Ley, sin mencionar la comunidad o etnia, o en su caso la región de la República Mexicana de la que es propia, y",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "XIV",
+     "texto": "XIV.\tLas demás que se deriven de la interpretación de la presente Ley y sus reglamentos.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 229.- Son infracciones en materia de derecho de autor:\nI.\tCelebrar el editor, empresario, productor, empleador, organismo de radiodifusión o licenciatario un contrato que tenga por objeto la transmisión de derechos de autor en contravención a lo dispuesto por la presente Ley;\nII.\tInfringir el licenciatario los términos de la licencia obligatoria que se hubiese declarado conforme al artículo 146 la presente Ley;\nIII.\tOstentarse como sociedad de gestión colectiva sin haber obtenido el registro correspondiente ante el Instituto;\nIV.\tNo proporcionar, sin causa justificada, al Instituto, siendo administrador de una sociedad de gestión colectiva los informes y documentos a que se refieren los artículos 204 fracción IV y 207 de la presente Ley;\nV.\tNo insertar en una obra publicada las menciones a que se refiere el artículo 17 de la presente Ley;\nVI.\tOmitir o insertar con falsedad en una edición los datos a que se refiere el artículo 53 de la presente Ley;\nVII.\tOmitir o insertar con falsedad las menciones a que se refiere el artículo 54 de la presente Ley;\nVIII.\tNo insertar en un fonograma las menciones a que se refiere el artículo 132 de la presente Ley;\nIX.\tPublicar una obra, estando autorizado para ello, sin mencionar en los ejemplares de ella el nombre del autor, traductor, compilador, adaptador o arreglista;\nX.\tPublicar una obra, estando autorizado para ello, con menoscabo de la reputación del autor como tal y, en su caso, del traductor, compilador, arreglista o adaptador;\nXI.\tPublicar antes que la Federación, los Estados o los Municipios y sin autorización las obras hechas en el servicio oficial;\nXII.\tEmplear dolosamente en una obra un título que induzca a confusión con otra publicada con anterioridad;\nXIII.\tFijar, representar, publicar, efectuar alguna comunicación o utilizar en cualquier forma una obra literaria y artística, protegida conforme al capítulo III, del Título VII, de la presente Ley, sin mencionar la comunidad o etnia, o en su caso la región de la República Mexicana de la que es propia, y\nXIV.\tLas demás que se deriven de la interpretación de la presente Ley y sus reglamentos.",
+   "materia": "infraccion_autor"
+  },
+  {
+   "numero": "230",
+   "capitulo_codigo": "I",
+   "capitulo_nombre": "De las Infracciones en Materia de Derechos de Autor",
+   "texto_intro": "Las infracciones en materia de derechos de autor serán sancionadas por el Instituto con arreglo a lo dispuesto por la Ley Federal de Procedimiento Administrativo con multa:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tDe ocho mil hasta veintidós mil veces el valor diario de la Unidad de Medida y Actualización en los casos previstos en las fracciones I, II, III, IV, XI, XII, XIII y XIV del artículo anterior, y",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II.\tDe mil quinientos hasta ocho mil veces el valor diario de la Unidad de Medida y Actualización en los demás casos previstos en el artículo anterior.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [
+    "Se aplicará multa adicional de hasta setecientas veces el valor diario de la Unidad de Medida y Actualización, a quien persista en la infracción.",
+    "Las sanciones previstas en este Capítulo se impondrán además de la indemnización que corresponda por daños y perjuicios a los afectados, en los términos de lo dispuesto en los artículos 213 y 216 Bis de esta Ley y sin perjuicio de las sanciones penales correspondientes."
+   ],
+   "reformas": [],
+   "texto_completo": "Artículo 230.- Las infracciones en materia de derechos de autor serán sancionadas por el Instituto con arreglo a lo dispuesto por la Ley Federal de Procedimiento Administrativo con multa:\nI.\tDe ocho mil hasta veintidós mil veces el valor diario de la Unidad de Medida y Actualización en los casos previstos en las fracciones I, II, III, IV, XI, XII, XIII y XIV del artículo anterior, y\nII.\tDe mil quinientos hasta ocho mil veces el valor diario de la Unidad de Medida y Actualización en los demás casos previstos en el artículo anterior.\nSe aplicará multa adicional de hasta setecientas veces el valor diario de la Unidad de Medida y Actualización, a quien persista en la infracción.\nLas sanciones previstas en este Capítulo se impondrán además de la indemnización que corresponda por daños y perjuicios a los afectados, en los términos de lo dispuesto en los artículos 213 y 216 Bis de esta Ley y sin perjuicio de las sanciones penales correspondientes.",
+   "materia": "infraccion_autor"
+  },
+  {
+   "numero": "231",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Constituyen infracciones en materia de comercio las siguientes conductas cuando sean realizadas con fines de lucro directo o indirecto:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tComunicar, poner a disposición o utilizar públicamente una obra protegida por cualquier medio, y de cualquier forma sin la autorización previa y expresa del autor, de sus legítimos herederos o del titular del derecho patrimonial de autor;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II. \tContravenir lo dispuesto en los artículos 87, así como 118, fracción VII, de la presente Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "III",
+     "texto": "III.\tFijar, grabar, producir, reproducir, almacenar, distribuir, comunicar, poner a disposición, transportar o comercializar copias de obras, obras cinematográficas y demás obras audiovisuales, fonogramas, videogramas o libros, protegidos por los derechos de autor o por los derechos conexos, sin la autorización de los respectivos titulares en los términos de esta Ley;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "IV",
+     "texto": "IV.\tOfrecer en venta, almacenar, transportar o poner en circulación obras protegidas por esta Ley que hayan sido deformadas, modificadas o mutiladas sin autorización del titular del derecho de autor;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "V",
+     "texto": "V.\tImportar, vender, arrendar o realizar cualquier acto que permita tener un dispositivo o sistema cuya finalidad sea desactivar los dispositivos electrónicos de protección de un programa de computación;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "VI",
+     "texto": "VI.\tRetransmitir, fijar, reproducir y difundir al público emisiones de organismos de radiodifusión y sin la autorización debida;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "VII",
+     "texto": "VII.\tUsar, reproducir o explotar una reserva de derechos protegida o un programa de cómputo sin el consentimiento del titular;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "VIII",
+     "texto": "VIII.\tUsar o explotar un nombre, título, denominación, características físicas o psicológicas, o características de operación de tal forma que induzcan a error o confusión con una reserva de derechos protegida;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "IX",
+     "texto": "IX.\tUtilizar las obras literarias y artísticas protegidas por el capítulo III, del Título VII de la presente Ley en contravención a lo dispuesto por el artículo 158 de la misma, y",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "X",
+     "texto": "X.\tLas demás infracciones a las disposiciones de la Ley que impliquen conducta a escala comercial o industrial relacionada con obras protegidas por esta Ley.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 231.- Constituyen infracciones en materia de comercio las siguientes conductas cuando sean realizadas con fines de lucro directo o indirecto:\nI.\tComunicar, poner a disposición o utilizar públicamente una obra protegida por cualquier medio, y de cualquier forma sin la autorización previa y expresa del autor, de sus legítimos herederos o del titular del derecho patrimonial de autor;\nII. \tContravenir lo dispuesto en los artículos 87, así como 118, fracción VII, de la presente Ley;\nIII.\tFijar, grabar, producir, reproducir, almacenar, distribuir, comunicar, poner a disposición, transportar o comercializar copias de obras, obras cinematográficas y demás obras audiovisuales, fonogramas, videogramas o libros, protegidos por los derechos de autor o por los derechos conexos, sin la autorización de los respectivos titulares en los términos de esta Ley;\nIV.\tOfrecer en venta, almacenar, transportar o poner en circulación obras protegidas por esta Ley que hayan sido deformadas, modificadas o mutiladas sin autorización del titular del derecho de autor;\nV.\tImportar, vender, arrendar o realizar cualquier acto que permita tener un dispositivo o sistema cuya finalidad sea desactivar los dispositivos electrónicos de protección de un programa de computación;\nVI.\tRetransmitir, fijar, reproducir y difundir al público emisiones de organismos de radiodifusión y sin la autorización debida;\nVII.\tUsar, reproducir o explotar una reserva de derechos protegida o un programa de cómputo sin el consentimiento del titular;\nVIII.\tUsar o explotar un nombre, título, denominación, características físicas o psicológicas, o características de operación de tal forma que induzcan a error o confusión con una reserva de derechos protegida;\nIX.\tUtilizar las obras literarias y artísticas protegidas por el capítulo III, del Título VII de la presente Ley en contravención a lo dispuesto por el artículo 158 de la misma, y\nX.\tLas demás infracciones a las disposiciones de la Ley que impliquen conducta a escala comercial o industrial relacionada con obras protegidas por esta Ley.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "232",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Las infracciones en materia de comercio previstas en la presente Ley serán sancionadas por el Instituto Mexicano de la Propiedad Industrial con multa:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tDe cinco mil hasta cuarenta mil días de salario mínimo en los casos previstos en las fracciones I, II, III, IV, V, VII, VIII y IX del artículo anterior;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II.\tDe mil hasta cinco mil días de salario mínimo en los casos previstos en la fracción VI del artículo anterior, y",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "III",
+     "texto": "III.\tDe quinientos hasta mil días de salario mínimo en los demás casos a que se refiere la fracción X del artículo anterior.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [
+    "Se aplicará multa adicional de hasta quinientos días de salario mínimo general vigente por día, a quien persista en la infracción."
+   ],
+   "reformas": [],
+   "texto_completo": "Artículo 232. Las infracciones en materia de comercio previstas en la presente Ley serán sancionadas por el Instituto Mexicano de la Propiedad Industrial con multa:\nI.\tDe cinco mil hasta cuarenta mil días de salario mínimo en los casos previstos en las fracciones I, II, III, IV, V, VII, VIII y IX del artículo anterior;\nII.\tDe mil hasta cinco mil días de salario mínimo en los casos previstos en la fracción VI del artículo anterior, y\nIII.\tDe quinientos hasta mil días de salario mínimo en los demás casos a que se refiere la fracción X del artículo anterior.\nSe aplicará multa adicional de hasta quinientos días de salario mínimo general vigente por día, a quien persista en la infracción.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "232 Bis",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Se impondrá multa de mil hasta veinte mil veces el valor diario de la Unidad de Medida y Actualización a quien produzca, reproduzca, fabrique, distribuya, importe, comercialice, arriende, almacene, transporte, ofrezca o ponga a disposición del público, ofrezca al público o proporcione servicios o realice cualquier otro acto que permita tener dispositivos, mecanismos, productos, componentes o sistemas que:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tSean promocionados, publicados o comercializados con el propósito de eludir una medida tecnológica de protección efectiva;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II.\tSean utilizados preponderantemente para eludir cualquier medida tecnológica de protección efectiva, o",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "III",
+     "texto": "III.\tSean diseñados, producidos o ejecutados con el propósito de eludir cualquier medida tecnológica de protección efectiva.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 232 Bis.- Se impondrá multa de mil hasta veinte mil veces el valor diario de la Unidad de Medida y Actualización a quien produzca, reproduzca, fabrique, distribuya, importe, comercialice, arriende, almacene, transporte, ofrezca o ponga a disposición del público, ofrezca al público o proporcione servicios o realice cualquier otro acto que permita tener dispositivos, mecanismos, productos, componentes o sistemas que:\nI.\tSean promocionados, publicados o comercializados con el propósito de eludir una medida tecnológica de protección efectiva;\nII.\tSean utilizados preponderantemente para eludir cualquier medida tecnológica de protección efectiva, o\nIII.\tSean diseñados, producidos o ejecutados con el propósito de eludir cualquier medida tecnológica de protección efectiva.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "232 Ter",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Se impondrá multa de mil hasta diez mil veces el valor diario de la Unidad de Medida y Actualización, a quien eluda una medida tecnológica de protección efectiva que controle el acceso a una obra, interpretación o ejecución, o fonograma protegido por esta Ley.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 232 Ter.- Se impondrá multa de mil hasta diez mil veces el valor diario de la Unidad de Medida y Actualización, a quien eluda una medida tecnológica de protección efectiva que controle el acceso a una obra, interpretación o ejecución, o fonograma protegido por esta Ley.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "232 Quáter",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Se impondrá una multa de mil hasta veinte mil veces el valor diario de la Unidad de Medida y Actualización, a quien sin la autorización respectiva:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tSuprima o altere la información sobre la gestión de derechos;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II.\tDistribuya o importe para su distribución, información sobre la gestión de derechos sabiendo que esa información ha sido suprimida, alterada, modificada u omitida sin autorización, o",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "III",
+     "texto": "III.\tProduzca, reproduzca, publique, edite, fije, comunique, transmita, distribuya, importe, comercialice, arriende, almacene, transporte, divulgue o ponga a disposición del público copias de obras, interpretaciones o ejecuciones, o fonogramas, sabiendo que la información sobre la gestión de derechos ha sido suprimida, alterada, modificada u omitida sin autorización.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 232 Quáter.- Se impondrá una multa de mil hasta veinte mil veces el valor diario de la Unidad de Medida y Actualización, a quien sin la autorización respectiva:\nI.\tSuprima o altere la información sobre la gestión de derechos;\nII.\tDistribuya o importe para su distribución, información sobre la gestión de derechos sabiendo que esa información ha sido suprimida, alterada, modificada u omitida sin autorización, o\nIII.\tProduzca, reproduzca, publique, edite, fije, comunique, transmita, distribuya, importe, comercialice, arriende, almacene, transporte, divulgue o ponga a disposición del público copias de obras, interpretaciones o ejecuciones, o fonogramas, sabiendo que la información sobre la gestión de derechos ha sido suprimida, alterada, modificada u omitida sin autorización.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "232 Quinquies",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Se impondrá una multa de mil hasta veinte mil veces el valor diario de la Unidad de Medida y Actualización:",
+   "fracciones": [
+    {
+     "tipo": "fraccion",
+     "marcador": "I",
+     "texto": "I.\tA quien realice una falsa declaración en un aviso o contra-aviso, que afecte a cualquier parte interesada debido a que el Proveedor de Servicios en Línea se haya apoyado en ese aviso para remover, retirar, eliminar o inhabilitar el acceso al contenido protegido por esta Ley o haya rehabilitado el acceso al contenido derivado de dicho contra-aviso;",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "II",
+     "texto": "II.\tAl Proveedor de Servicios en Línea que no remueva, retire, elimine o inhabilite el acceso de forma expedita al contenido que ha sido objeto de un aviso por parte del titular del derecho de autor o derecho conexo o por alguna persona autorizada para actuar en representación del titular, o de autoridad competente, sin perjuicio de lo señalado en el artículo 114 Octies de esta Ley, o",
+     "incisos": []
+    },
+    {
+     "tipo": "fraccion",
+     "marcador": "III",
+     "texto": "III.\tAl Proveedor de Servicios de Internet que no proporcione de manera expedita a la autoridad judicial o administrativa, previo requerimiento, la información que esté en su posesión y que identifique al presunto infractor, en los casos en que dicha información se requiera con el propósito de proteger o hacer cumplir el derecho de autor o los derechos conexos dentro de un procedimiento judicial o administrativo.",
+     "incisos": []
+    }
+   ],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 232 Quinquies.- Se impondrá una multa de mil hasta veinte mil veces el valor diario de la Unidad de Medida y Actualización:\nI.\tA quien realice una falsa declaración en un aviso o contra-aviso, que afecte a cualquier parte interesada debido a que el Proveedor de Servicios en Línea se haya apoyado en ese aviso para remover, retirar, eliminar o inhabilitar el acceso al contenido protegido por esta Ley o haya rehabilitado el acceso al contenido derivado de dicho contra-aviso;\nII.\tAl Proveedor de Servicios en Línea que no remueva, retire, elimine o inhabilite el acceso de forma expedita al contenido que ha sido objeto de un aviso por parte del titular del derecho de autor o derecho conexo o por alguna persona autorizada para actuar en representación del titular, o de autoridad competente, sin perjuicio de lo señalado en el artículo 114 Octies de esta Ley, o\nIII.\tAl Proveedor de Servicios de Internet que no proporcione de manera expedita a la autoridad judicial o administrativa, previo requerimiento, la información que esté en su posesión y que identifique al presunto infractor, en los casos en que dicha información se requiera con el propósito de proteger o hacer cumplir el derecho de autor o los derechos conexos dentro de un procedimiento judicial o administrativo.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "232 Sexies",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Las infracciones previstas en los artículos 232 Bis, 232 Ter, 232 Quáter y 232 Quinquies serán sancionadas conforme al artículo 234 de esta Ley y con arreglo a lo dispuesto en la Ley Federal de Procedimiento Administrativo.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 232 Sexies.- Las infracciones previstas en los artículos 232 Bis, 232 Ter, 232 Quáter y 232 Quinquies serán sancionadas conforme al artículo 234 de esta Ley y con arreglo a lo dispuesto en la Ley Federal de Procedimiento Administrativo.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "233",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Si el infractor fuese un editor, organismo de radiodifusión, o cualquier persona física o moral que explote obras a escala comercial, la multa podrá incrementarse hasta en un cincuenta por ciento respecto de las cantidades previstas en el artículo anterior.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 233.- Si el infractor fuese un editor, organismo de radiodifusión, o cualquier persona física o moral que explote obras a escala comercial, la multa podrá incrementarse hasta en un cincuenta por ciento respecto de las cantidades previstas en el artículo anterior.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "234",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "El Instituto Mexicano de la Propiedad Industrial sancionará las infracciones materia de comercio con arreglo al procedimiento y las formalidades previstas en los Títulos Sexto y Séptimo de la Ley de la Propiedad Industrial.",
+   "fracciones": [],
+   "parrafos_finales": [
+    "El Instituto Mexicano de la Propiedad Industrial podrá adoptar las medidas precautorias previstas en la Ley de Propiedad Industrial.",
+    "Para tal efecto, el Instituto Mexicano de la Propiedad Industrial, tendrá las facultades de realizar investigaciones; ordenar y practicar visitas de inspección; requerir información y datos."
+   ],
+   "reformas": [],
+   "texto_completo": "Artículo 234.- El Instituto Mexicano de la Propiedad Industrial sancionará las infracciones materia de comercio con arreglo al procedimiento y las formalidades previstas en los Títulos Sexto y Séptimo de la Ley de la Propiedad Industrial.\nEl Instituto Mexicano de la Propiedad Industrial podrá adoptar las medidas precautorias previstas en la Ley de Propiedad Industrial.\nPara tal efecto, el Instituto Mexicano de la Propiedad Industrial, tendrá las facultades de realizar investigaciones; ordenar y practicar visitas de inspección; requerir información y datos.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "235",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Los Tribunales Federales en cualquier caso y el Instituto Mexicano de la Propiedad Industrial, tratándose de infracciones en materia de comercio, quedan facultados para emitir una resolución de suspensión de la libre circulación de mercancías de procedencia extranjera en frontera, en los términos de lo dispuesto por la Ley Aduanera.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 235.- Los Tribunales Federales en cualquier caso y el Instituto Mexicano de la Propiedad Industrial, tratándose de infracciones en materia de comercio, quedan facultados para emitir una resolución de suspensión de la libre circulación de mercancías de procedencia extranjera en frontera, en los términos de lo dispuesto por la Ley Aduanera.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "236",
+   "capitulo_codigo": "II",
+   "capitulo_nombre": "De las Infracciones en Materia de Comercio",
+   "texto_intro": "Para la aplicación de las sanciones a que se refiere este Título se entenderá como el valor diario de la Unidad de Medida y Actualización, el vigente en la fecha de la comisión de la infracción.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 236.- Para la aplicación de las sanciones a que se refiere este Título se entenderá como el valor diario de la Unidad de Medida y Actualización, el vigente en la fecha de la comisión de la infracción.",
+   "materia": "infraccion_comercio"
+  },
+  {
+   "numero": "237",
+   "capitulo_codigo": "III",
+   "capitulo_nombre": "De la Impugnación Administrativa",
+   "texto_intro": "Los afectados por los actos y resoluciones emitidos por el Instituto que pongan fin a un procedimiento administrativo, a una instancia o resuelvan un expediente, podrán interponer recurso de revisión en los términos de la Ley Federal del Procedimiento Administrativo.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 237.- Los afectados por los actos y resoluciones emitidos por el Instituto que pongan fin a un procedimiento administrativo, a una instancia o resuelvan un expediente, podrán interponer recurso de revisión en los términos de la Ley Federal del Procedimiento Administrativo.",
+   "materia": "impugnacion_administrativa"
+  },
+  {
+   "numero": "238",
+   "capitulo_codigo": "III",
+   "capitulo_nombre": "De la Impugnación Administrativa",
+   "texto_intro": "Los interesados afectados por los actos y resoluciones emitidos por el Instituto Mexicano de la Propiedad Industrial por las infracciones en materia de comercio que pongan fin a un procedimiento administrativo, a una instancia o resuelvan un expediente, podrán interponer los medios de defensa establecidos en la Ley de la Propiedad Industrial.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "reformas": [],
+   "texto_completo": "Artículo 238.- Los interesados afectados por los actos y resoluciones emitidos por el Instituto Mexicano de la Propiedad Industrial por las infracciones en materia de comercio que pongan fin a un procedimiento administrativo, a una instancia o resuelvan un expediente, podrán interponer los medios de defensa establecidos en la Ley de la Propiedad Industrial.",
+   "materia": "impugnacion_administrativa"
+  }
+ ]
+}

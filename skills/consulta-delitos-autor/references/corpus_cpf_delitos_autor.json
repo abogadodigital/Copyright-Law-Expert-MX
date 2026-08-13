@@ -1,0 +1,165 @@
+{
+ "metadata": {
+  "titulo": "Código Penal Federal (CPF) — Título Vigésimo Sexto: De los Delitos en Materia de Derechos de Autor",
+  "ambito": "Texto normativo vigente (no es jurisprudencia ni criterio interpretativo)",
+  "fuente": "Diario Oficial de la Federación",
+  "publicacion_original": "Nuevo Código publicado en el Diario Oficial de la Federación el 14 de agosto de 1931",
+  "ultima_reforma": "DOF 13-03-2026",
+  "nota_vigencia": "Corpus generado a partir de un documento de trabajo del usuario (texto vigente, última reforma DOF 13-03-2026). Ante cualquier duda sobre reformas posteriores, verificar el texto oficial vigente en el portal del DOF (https://www.dof.gob.mx) o en la Cámara de Diputados (https://www.diputados.gob.mx/LeyesBiblio/).",
+  "titulo_legal_numero": "TÍTULO VIGÉSIMO SEXTO",
+  "titulo_legal_nombre": "De los Delitos en Materia de Derechos de Autor",
+  "nota_alcance": "A diferencia del derecho marcario (donde infracciones y delitos conviven en un mismo título de la LFPPI), en derechos de autor los delitos NO están en la Ley Federal del Derecho de Autor sino en este título específico del Código Penal Federal (arts. 424 a 429). Las infracciones administrativas (vía civil/administrativa) sí están en la LFDA, Título XII (ver corpus_infracciones_lfda.json).",
+  "nota_persecucion": "Conforme al artículo 429, estos delitos se persiguen de oficio, EXCEPTO los previstos en los artículos 424, fracción II, 424 Bis, fracción III, y 427, que requieren querella de parte ofendida.",
+  "total_articulos": 12,
+  "rango_articulos": "424 a 429",
+  "relacion_con_otros_corpus": "Para jurisprudencia que interpreta estos delitos, ver la categoría M ('Delitos en materia de derechos de autor') de data/corpus_tesis_derechos_autor.json, consultable vía la skill busqueda-criterios-autor."
+ },
+ "articulos": [
+  {
+   "numero": "424",
+   "texto_intro": "Se impondrá prisión de seis meses a seis años y de trescientos a tres mil días multa:",
+   "fracciones": [
+    {
+     "numero": "I",
+     "texto": "I. \tAl que especule en cualquier forma con los libros de texto gratuitos que distribuye la Secretaría de Educación Pública;"
+    },
+    {
+     "numero": "II",
+     "texto": "II. \tAl editor, productor o grabador que a sabiendas produzca más números de ejemplares de una obra protegida por la Ley Federal del Derecho de Autor, que los autorizados por el titular de los derechos;"
+    },
+    {
+     "numero": "III",
+     "texto": "III. \tA quien use en forma dolosa, con fin de lucro y sin la autorización correspondiente obras protegidas por la Ley Federal del Derecho de Autor."
+    },
+    {
+     "numero": "IV",
+     "texto": "IV. \tDerogada."
+    }
+   ],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 424.- Se impondrá prisión de seis meses a seis años y de trescientos a tres mil días multa:\nI. \tAl que especule en cualquier forma con los libros de texto gratuitos que distribuye la Secretaría de Educación Pública;\nII. \tAl editor, productor o grabador que a sabiendas produzca más números de ejemplares de una obra protegida por la Ley Federal del Derecho de Autor, que los autorizados por el titular de los derechos;\nIII. \tA quien use en forma dolosa, con fin de lucro y sin la autorización correspondiente obras protegidas por la Ley Federal del Derecho de Autor.\nIV. \tDerogada."
+  },
+  {
+   "numero": "424 Bis",
+   "texto_intro": "Se impondrá prisión de tres a diez años y de dos mil a veinte mil días multa:",
+   "fracciones": [
+    {
+     "numero": "I",
+     "texto": "I. \tA quien produzca, reproduzca, introduzca al país, almacene, transporte, distribuya, venda o arriende copias de obras, fonogramas, videogramas o libros, protegidos por la Ley Federal del Derecho de Autor, en forma dolosa, con fin de especulación comercial y sin la autorización que en los términos de la citada Ley deba otorgar el titular de los derechos de autor o de los derechos conexos."
+    },
+    {
+     "numero": "II",
+     "texto": "II.\tA quien fabrique con fin de lucro un dispositivo o sistema cuya finalidad sea desactivar los dispositivos electrónicos de protección de un programa de computación, o"
+    },
+    {
+     "numero": "III",
+     "texto": "III.\tA quien grabe, transmita o realice una copia total o parcial de una obra cinematográfica protegida, exhibida en una sala de cine o lugares que hagan sus veces, sin la autorización del titular del derecho de autor o derechos conexos."
+    }
+   ],
+   "parrafos_finales": [
+    "Igual pena se impondrá a quienes, a sabiendas, aporten o provean de cualquier forma, materias primas o insumos destinados a la producción o reproducción de obras, fonogramas, videogramas o libros a que se refiere el párrafo anterior;"
+   ],
+   "texto_completo": "Artículo 424 bis.- Se impondrá prisión de tres a diez años y de dos mil a veinte mil días multa:\nI. \tA quien produzca, reproduzca, introduzca al país, almacene, transporte, distribuya, venda o arriende copias de obras, fonogramas, videogramas o libros, protegidos por la Ley Federal del Derecho de Autor, en forma dolosa, con fin de especulación comercial y sin la autorización que en los términos de la citada Ley deba otorgar el titular de los derechos de autor o de los derechos conexos.\nIgual pena se impondrá a quienes, a sabiendas, aporten o provean de cualquier forma, materias primas o insumos destinados a la producción o reproducción de obras, fonogramas, videogramas o libros a que se refiere el párrafo anterior;\nII.\tA quien fabrique con fin de lucro un dispositivo o sistema cuya finalidad sea desactivar los dispositivos electrónicos de protección de un programa de computación, o\nIII.\tA quien grabe, transmita o realice una copia total o parcial de una obra cinematográfica protegida, exhibida en una sala de cine o lugares que hagan sus veces, sin la autorización del titular del derecho de autor o derechos conexos."
+  },
+  {
+   "numero": "424 Ter",
+   "texto_intro": "Se impondrá prisión de seis meses a seis años y de cinco mil a treinta mil días multa, a quien venda a cualquier consumidor final en vías o en lugares públicos, en forma dolosa, con fines de especulación comercial, copias de obras, fonogramas, videogramas o libros, a que se refiere la fracción I del artículo anterior.",
+   "fracciones": [],
+   "parrafos_finales": [
+    "Si la venta se realiza en establecimientos comerciales, o de manera organizada o permanente, se estará a lo dispuesto en el artículo 424 Bis de este Código."
+   ],
+   "texto_completo": "Artículo 424 ter.- Se impondrá prisión de seis meses a seis años y de cinco mil a treinta mil días multa, a quien venda a cualquier consumidor final en vías o en lugares públicos, en forma dolosa, con fines de especulación comercial, copias de obras, fonogramas, videogramas o libros, a que se refiere la fracción I del artículo anterior.\nSi la venta se realiza en establecimientos comerciales, o de manera organizada o permanente, se estará a lo dispuesto en el artículo 424 Bis de este Código."
+  },
+  {
+   "numero": "425",
+   "texto_intro": "Se impondrá prisión de seis meses a dos años o de trescientos a tres mil días multa, al que a sabiendas y sin derecho explote con fines de lucro una interpretación o una ejecución.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 425.- Se impondrá prisión de seis meses a dos años o de trescientos a tres mil días multa, al que a sabiendas y sin derecho explote con fines de lucro una interpretación o una ejecución."
+  },
+  {
+   "numero": "426",
+   "texto_intro": "Se impondrá prisión de seis meses a cuatro años y de trescientos a tres mil días multa, en los casos siguientes:",
+   "fracciones": [
+    {
+     "numero": "I",
+     "texto": "I.\tA quien fabrique, modifique, importe, distribuya, venda o arriende un dispositivo o sistema para descifrar una señal de satélite cifrada, portadora de programas, sin autorización del distribuidor legítimo de dicha señal;"
+    },
+    {
+     "numero": "II",
+     "texto": "II.\tA quien realice con fines de lucro cualquier acto con la finalidad de descifrar una señal de satélite cifrada, portadora de programas, sin autorización del distribuidor legítimo de dicha señal;"
+    },
+    {
+     "numero": "III",
+     "texto": "III.\tA quien fabrique o distribuya equipo destinado a la recepción de una señal de cable encriptada portadora de programas, sin autorización del distribuidor legítimo de dicha señal, o"
+    },
+    {
+     "numero": "IV",
+     "texto": "IV.\tA quien reciba o asista a otro a recibir una señal de cable encriptada portadora de programas sin la autorización del distribuidor legítimo de dicha señal."
+    }
+   ],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 426.- Se impondrá prisión de seis meses a cuatro años y de trescientos a tres mil días multa, en los casos siguientes:\nI.\tA quien fabrique, modifique, importe, distribuya, venda o arriende un dispositivo o sistema para descifrar una señal de satélite cifrada, portadora de programas, sin autorización del distribuidor legítimo de dicha señal;\nII.\tA quien realice con fines de lucro cualquier acto con la finalidad de descifrar una señal de satélite cifrada, portadora de programas, sin autorización del distribuidor legítimo de dicha señal;\nIII.\tA quien fabrique o distribuya equipo destinado a la recepción de una señal de cable encriptada portadora de programas, sin autorización del distribuidor legítimo de dicha señal, o\nIV.\tA quien reciba o asista a otro a recibir una señal de cable encriptada portadora de programas sin la autorización del distribuidor legítimo de dicha señal."
+  },
+  {
+   "numero": "427",
+   "texto_intro": "Se impondrá prisión de seis meses a seis años y de trescientos a tres mil días multa, a quien publique a sabiendas una obra substituyendo el nombre del autor por otro nombre.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 427.- Se impondrá prisión de seis meses a seis años y de trescientos a tres mil días multa, a quien publique a sabiendas una obra substituyendo el nombre del autor por otro nombre."
+  },
+  {
+   "numero": "427 Bis",
+   "texto_intro": "A quien, a sabiendas y con fines de lucro eluda sin autorización cualquier medida tecnológica de protección efectiva que utilicen los productores de fonogramas, artistas, intérpretes o ejecutantes, así como autores de cualquier obra protegida por derechos de autor o derechos conexos, será sancionado con una pena de prisión de seis meses a seis años y de quinientos a mil días multa.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 427 Bis.- A quien, a sabiendas y con fines de lucro eluda sin autorización cualquier medida tecnológica de protección efectiva que utilicen los productores de fonogramas, artistas, intérpretes o ejecutantes, así como autores de cualquier obra protegida por derechos de autor o derechos conexos, será sancionado con una pena de prisión de seis meses a seis años y de quinientos a mil días multa."
+  },
+  {
+   "numero": "427 Ter",
+   "texto_intro": "A quien, con fines de lucro, fabrique, importe, distribuya, rente o de cualquier manera comercialice dispositivos, productos o componentes destinados a eludir una medida tecnológica de protección efectiva que utilicen los productores de fonogramas, artistas, intérpretes o ejecutantes, así como los autores de cualquier obra protegida por el derecho de autor o derecho conexo, se le impondrá de seis meses a seis años de prisión y de quinientos a mil días multa.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 427 Ter.- A quien, con fines de lucro, fabrique, importe, distribuya, rente o de cualquier manera comercialice dispositivos, productos o componentes destinados a eludir una medida tecnológica de protección efectiva que utilicen los productores de fonogramas, artistas, intérpretes o ejecutantes, así como los autores de cualquier obra protegida por el derecho de autor o derecho conexo, se le impondrá de seis meses a seis años de prisión y de quinientos a mil días multa."
+  },
+  {
+   "numero": "427 Quáter",
+   "texto_intro": "A quien, con fines de lucro, brinde u ofrezca servicios al público destinados principalmente a eludir una medida tecnológica de protección efectiva que utilicen los productores de fonogramas, artistas, intérpretes o ejecutantes, así como los autores de cualquier obra protegida por derecho de autor o derecho conexo, se le impondrá de seis meses a seis años de prisión y de quinientos a mil días multa.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 427 Quáter.- A quien, con fines de lucro, brinde u ofrezca servicios al público destinados principalmente a eludir una medida tecnológica de protección efectiva que utilicen los productores de fonogramas, artistas, intérpretes o ejecutantes, así como los autores de cualquier obra protegida por derecho de autor o derecho conexo, se le impondrá de seis meses a seis años de prisión y de quinientos a mil días multa."
+  },
+  {
+   "numero": "427 Quinquies",
+   "texto_intro": "A quien, a sabiendas, sin autorización y con fines de lucro, suprima o altere, por sí o por medio de otro, cualquier información sobre gestión de derechos, se le impondrá de seis meses a seis años de prisión y de quinientos a mil días multa.",
+   "fracciones": [
+    {
+     "numero": "I",
+     "texto": "I.\tDistribuya o importe para su distribución información sobre gestión de derechos, a sabiendas de que ésta ha sido suprimida o alterada sin autorización, o"
+    },
+    {
+     "numero": "II",
+     "texto": "II. \tDistribuya, importe para su distribución, transmita, comunique o ponga a disposición del público copias de las obras, interpretaciones, ejecuciones o fonogramas, a sabiendas de que la información sobre gestión de derechos ha sido suprimida o alterada sin autorización."
+    }
+   ],
+   "parrafos_finales": [
+    "La misma pena será impuesta a quien con fines de lucro:"
+   ],
+   "texto_completo": "Artículo 427 Quinquies.- A quien, a sabiendas, sin autorización y con fines de lucro, suprima o altere, por sí o por medio de otro, cualquier información sobre gestión de derechos, se le impondrá de seis meses a seis años de prisión y de quinientos a mil días multa.\nLa misma pena será impuesta a quien con fines de lucro:\nI.\tDistribuya o importe para su distribución información sobre gestión de derechos, a sabiendas de que ésta ha sido suprimida o alterada sin autorización, o\nII. \tDistribuya, importe para su distribución, transmita, comunique o ponga a disposición del público copias de las obras, interpretaciones, ejecuciones o fonogramas, a sabiendas de que la información sobre gestión de derechos ha sido suprimida o alterada sin autorización."
+  },
+  {
+   "numero": "428",
+   "texto_intro": "Las sanciones pecuniarias previstas en el presente título se aplicarán sin perjuicio de la reparación del daño, cuyo monto no podrá ser menor al cuarenta por ciento del precio de venta al público de cada producto o de la prestación de servicios que impliquen violación a alguno o algunos de los derechos tutelados por la Ley Federal del Derecho de Autor.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 428.- Las sanciones pecuniarias previstas en el presente título se aplicarán sin perjuicio de la reparación del daño, cuyo monto no podrá ser menor al cuarenta por ciento del precio de venta al público de cada producto o de la prestación de servicios que impliquen violación a alguno o algunos de los derechos tutelados por la Ley Federal del Derecho de Autor."
+  },
+  {
+   "numero": "429",
+   "texto_intro": "Los delitos previstos en este Título se perseguirán de oficio, excepto lo previsto en los artículos 424, fracción II, 424 Bis, fracción III y 427.",
+   "fracciones": [],
+   "parrafos_finales": [],
+   "texto_completo": "Artículo 429. Los delitos previstos en este Título se perseguirán de oficio, excepto lo previsto en los artículos 424, fracción II, 424 Bis, fracción III y 427."
+  }
+ ]
+}
