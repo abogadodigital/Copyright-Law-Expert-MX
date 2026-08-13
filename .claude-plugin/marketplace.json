@@ -1,0 +1,21 @@
+{
+  "name": "copyright-law-expert-mx",
+  "owner": {
+    "name": "Joel A. Gómez Treviño",
+    "email": "joelgomez@abogado.digital",
+    "url": "https://lnk.bio/AbogadoDigital"
+  },
+  "description": "Marketplace de un solo plugin: Copyright Law Expert - MX, herramientas de derecho de autor mexicano (LFDA, Código Penal Federal y jurisprudencia SCJN).",
+  "plugins": [
+    {
+      "name": "copyright-law-expert-mx",
+      "source": "./",
+      "description": "Plugin de derecho de autor mexicano: consulta la LFDA y el Código Penal Federal (delitos), busca y cita 79 tesis/jurisprudencias de la SCJN, analiza titularidad, infracciones e imagen, redacta escritos y genera material docente.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Joel A. Gómez Treviño"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ]
+}
