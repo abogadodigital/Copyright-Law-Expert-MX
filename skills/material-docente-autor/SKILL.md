@@ -75,7 +75,10 @@ autor que esas skills necesiten.
 
 - Toda afirmación normativa debe fundamentarse en el `texto_completo` del
   artículo correspondiente; toda afirmación jurisprudencial, en el rubro
-  y `enlace` de la tesis correspondiente.
+  y contenido (`resumen`, o el contenido completo si el material se
+  enfoca en pocas tesis clave) de la tesis correspondiente, siguiendo el
+  formato de `busqueda-criterios-autor`, con el `enlace` oficial al
+  final de cada criterio citado.
 - No inventes artículos, números de registro digital ni rubros de tesis
   que no existan en el corpus.
 - Distingue siempre, en el material que generes, entre lo que es texto

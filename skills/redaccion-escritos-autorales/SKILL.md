@@ -36,8 +36,12 @@ Penal Federal y/o la jurisprudencia empaquetada con este plugin.
    - Cuestión de infracción, delito o indemnización → `analisis-infraccion-autoral`.
    - Cuestión de derecho a la imagen → `analisis-derecho-imagen`.
 4. Redacta el escrito integrando el fundamento obtenido en el paso
-   anterior, citando artículos con `texto_completo` y tesis con su
-   `enlace`.
+   anterior, citando artículos con `texto_completo` y tesis siguiendo el
+   formato de `busqueda-criterios-autor` (contenido completo del criterio
+   —`hechos`/`criterio_juridico`/`justificacion` o `texto_integro`— si son
+   1 a 4 tesis, que es lo habitual en un escrito; abreviado con `resumen`
+   y opción de ampliar si son 5 o más), con el `enlace` oficial al final
+   de cada criterio citado.
 
 ## Tipos de escritos cubiertos
 
@@ -65,8 +69,9 @@ Penal Federal y/o la jurisprudencia empaquetada con este plugin.
 2. Hechos, numerados y ordenados cronológicamente.
 3. Fundamento de derecho: cita literal de cada artículo aplicable de la
    LFDA/CPF, seguida de su explicación aplicada al caso concreto.
-4. Jurisprudencia de apoyo: cita cada tesis con su rubro y `enlace`,
-   explicando por qué es aplicable a los hechos.
+4. Jurisprudencia de apoyo: cita cada tesis con su rubro y su contenido
+   completo (ver formato de `busqueda-criterios-autor`), explicando por
+   qué es aplicable a los hechos, con el `enlace` oficial al final.
 5. Petitorios o pretensiones concretas (incluyendo, si aplica, el monto
    de indemnización estimado conforme al art. 216 Bis).
 6. Pruebas que se ofrecen o que se sugiere recabar.

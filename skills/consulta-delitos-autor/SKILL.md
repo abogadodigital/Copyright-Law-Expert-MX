@@ -14,7 +14,7 @@ description: >
   infracciones administrativas de la LFDA (ver consulta-infracciones-lfda).
 metadata:
   version: "0.1.0"
-  author: "Joel A. Gómez Treviño"
+  author: "Joel Alejandro Gómez Treviño"
 ---
 
 # Consulta del texto del Código Penal Federal sobre delitos de derechos de autor

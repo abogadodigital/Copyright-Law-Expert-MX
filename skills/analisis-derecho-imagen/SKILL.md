@@ -84,7 +84,10 @@ siempre la jurisprudencia de categoría H, que confirma esta autonomía.
    una excepción?) en un párrafo breve.
 2. Cita el texto íntegro de los arts. 87 y 88 aplicables.
 3. Cita la jurisprudencia de categoría H (y, en su caso, I) con rubro y
-   `enlace`, siguiendo el formato de `busqueda-criterios-autor`.
+   contenido, siguiendo el formato de `busqueda-criterios-autor`
+   (contenido completo si son 1 a 4 criterios; abreviado con `resumen` y
+   opción de ampliar si son 5 o más), con el `enlace` oficial al final de
+   cada criterio.
 4. Si el uso indebido de la imagen también genera exposición bajo el
    régimen de infracciones o indemnización (arts. 229 y 216 Bis LFDA),
    remite a la skill `analisis-infraccion-autoral` para cuantificar esa

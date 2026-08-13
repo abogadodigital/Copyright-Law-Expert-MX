@@ -15,7 +15,7 @@ description: >
   consulta-lfda-derecho-autor).
 metadata:
   version: "0.1.0"
-  author: "Joel A. Gómez Treviño"
+  author: "Joel Alejandro Gómez Treviño"
 ---
 
 # Consulta del texto de la LFDA sobre infracciones administrativas

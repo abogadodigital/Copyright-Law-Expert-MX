@@ -93,25 +93,67 @@ presunción de titularidad, obra por encargo, límites de interpretación
 estricta, vías civil/administrativa/penal autónomas, retos de Internet, y
 vigencia temporal).
 
-## Formato de citación
+## Formato de citación (regla obligatoria, no negociable)
 
-Sigue la convención de citas-legales-mx cuando esté instalada; en caso
-contrario, usa este formato para cada criterio devuelto:
+El objetivo de esta skill es aprovechar el contenido rico del corpus, no
+actuar como un directorio de ligas. Por eso el contenido sustantivo de
+cada criterio citado (no solo el rubro y el enlace) es parte obligatoria
+de la respuesta. El **enlace oficial del SJF2 va siempre al final** de
+cada criterio, presentado explícitamente como referencia de verificación
+("para consultar el criterio íntegro y hacer tu propio 'double check' en
+la fuente oficial"), nunca como sustituto del contenido.
 
-> **[RUBRO completo en mayúsculas].** [Autoridad emisora]. [Tipo],
-> [Época]. Registro digital: [registro_digital]. [Enlace].
+La forma de presentar el contenido depende de cuántos criterios responden
+la consulta:
 
-Después de la cita, incluye el contenido según el tipo de tesis: si tiene
-`hechos`/`criterio_juridico`/`justificacion`, preséntalos con esos tres
-encabezados (no fusiones ni omitas ninguno si el usuario pidió el
-criterio completo); si en cambio tiene `texto_integro`, reprodúcelo tal
-cual. No parafrasees la regla legal operativa, solo la explicación
-circundante si se pide un resumen.
+### 1 a 4 criterios → contenido completo
 
-Si varios criterios responden la consulta, agrúpalos por
-`categoria_codigo` y presenta primero la fuente de mayor jerarquía (Pleno
-> Salas > Plenos de Circuito > Tribunales Colegiados), conforme a las
-notas de jerarquía en `metadata.conclusiones_y_lineamientos`.
+Para cada criterio, en este orden:
+
+1. Cita corta: **[RUBRO completo en mayúsculas].** [Autoridad emisora].
+   [Tipo], [Época]. Registro digital: [registro_digital].
+2. Contenido completo, según el tipo de tesis: si tiene
+   `hechos`/`criterio_juridico`/`justificacion`, preséntalos con esos tres
+   encabezados (no fusiones ni omitas ninguno); si en cambio tiene
+   `texto_integro`, reprodúcelo tal cual. No parafrasees la regla legal
+   operativa, solo la explicación circundante si se pide un resumen.
+3. Al final del criterio: "Consulta oficial (SJF2): [enlace]."
+
+Sigue la convención de citas-legales-mx en el paso 1 cuando esté
+instalada, conservando de todos modos los pasos 2 y 3.
+
+### 5 o más criterios → formato abreviado con opción de ampliar
+
+Copiar el contenido completo de cinco o más tesis en una sola respuesta
+satura al usuario y no es la mejor forma de aprovechar el corpus. En su
+lugar:
+
+1. Numera cada criterio (1, 2, 3, …) y preséntalo de forma abreviada:
+   **[N]. [RUBRO completo en mayúsculas].** [Autoridad emisora]. [Tipo],
+   [Época]. Registro digital: [registro_digital]. **Resumen:** el
+   contenido literal del campo `resumen` del corpus (no lo parafrasees).
+2. No incluyas `hechos`/`criterio_juridico`/`justificacion`/
+   `texto_integro` en esta lista abreviada — eso es lo que el usuario
+   puede pedir a continuación.
+3. Cierra la lista invitando explícitamente a pedir el contenido completo
+   de cualquiera de los criterios listados, por número o por registro
+   digital (p. ej. "dame completo el 3", "amplía el registro 2018640").
+   Nota de entorno: como esta skill opera dentro de una conversación de
+   chat, no existen botones interactivos reales — el mecanismo
+   equivalente es que el usuario responda señalando el número o registro
+   que le interesa, y entonces le entregas ese criterio en el formato
+   completo de la sección anterior (incluyendo el enlace SJF2 al final).
+4. Agrupa la lista por `categoria_codigo` y presenta primero la fuente de
+   mayor jerarquía (Pleno > Salas > Plenos de Circuito > Tribunales
+   Colegiados), conforme a las notas de jerarquía en
+   `metadata.conclusiones_y_lineamientos`.
+
+### Excepción expresa
+
+Si el usuario pide explícitamente solo el rubro y el enlace (p. ej. "solo
+dame los títulos y el link"), respeta esa instrucción y omite el
+contenido completo o el resumen, sin perder la referencia al enlace
+oficial.
 
 ## Cuando no hay coincidencias
 
