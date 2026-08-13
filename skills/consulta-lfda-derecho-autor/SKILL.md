@@ -15,7 +15,7 @@ description: >
   administrativas del Título XII (ver consulta-infracciones-lfda).
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Consulta del texto de la LFDA (Títulos I a XI)

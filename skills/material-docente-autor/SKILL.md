@@ -12,7 +12,7 @@ description: >
   jurisprudencial de derechos de autor empaquetada con este plugin.
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Material docente sobre derechos de autor mexicano

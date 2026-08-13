@@ -14,7 +14,7 @@ description: >
   empaquetada con este plugin.
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Redacción de escritos en materia de derechos de autor

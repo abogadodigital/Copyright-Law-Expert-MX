@@ -12,7 +12,7 @@ description: >
   13-03-2026; tesis: 13 de agosto de 2026).
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Actualización del corpus de derechos de autor (mantenimiento opcional)

@@ -14,7 +14,7 @@ description: >
   88 LFDA) y su jurisprudencia.
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Análisis del derecho a la imagen y al retrato

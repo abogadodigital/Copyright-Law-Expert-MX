@@ -14,7 +14,7 @@ description: >
   mexicano (LFDA).
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Análisis de originalidad y titularidad de derechos de autor

@@ -13,7 +13,7 @@ description: >
   plugin.
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Búsqueda y cita de criterios sobre derechos de autor

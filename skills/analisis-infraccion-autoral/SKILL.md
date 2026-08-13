@@ -14,7 +14,7 @@ description: >
   indemnización conforme al derecho de autor mexicano.
 metadata:
   version: "0.1.0"
-  author: "Joel Alejandro Gómez Treviño"
+  author: "Joel A. Gómez Treviño"
 ---
 
 # Análisis de infracción autoral y exposición legal

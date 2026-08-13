@@ -82,7 +82,7 @@ de este repositorio o al archivo `.plugin` empaquetado.
 
 ## Autoría
 
-**Joel Alejandro Gómez Treviño**
+**Joel A. Gómez Treviño**
 
 ## Licencia
 
