@@ -30,14 +30,11 @@ corpus empaquetado. No parafrasees el artículo como si fuera la única
 fuente de verdad sin antes mostrar o citar su texto íntegro; no inventes
 artículos, fracciones o incisos que no existan en el corpus.
 
-## Regla de citación obligatoria (no negociable)
+## Formato de citación
 
-Cita siempre el artículo (y la fracción, si aplica) de la LFDA que
-fundamenta la respuesta. Si la respuesta también hace referencia a una
-tesis o jurisprudencia del corpus de jurisprudencia de este plugin
-(`skills/busqueda-criterios-autor/references/corpus_tesis_derechos_autor.json`),
-incluye igualmente su liga oficial (campo `enlace`, SJF2) — nunca la
-omitas, incluso en respuestas breves.
+Sigue el formato de citación (artículos, identificados siempre como
+LFDA, y jurisprudencia) definido en
+`${CLAUDE_PLUGIN_ROOT}/skills/citas-legales-autor/SKILL.md`.
 
 ## Fuente de datos
 
@@ -137,10 +134,8 @@ XII) usa `consulta-infracciones-lfda`; si involucra delitos, usa
 3. Da una explicación breve en lenguaje llano de lo que dice el artículo,
    después de la cita textual, no en lugar de ella.
 4. Si el usuario pide fundamento para un escrito o dictamen, usa el
-   formato de citas-legales-mx cuando esté instalado; si no, cita como:
-   > Artículo [número], [fracción/inciso si aplica], de la Ley Federal
-   > del Derecho de Autor (Título [numeral romano] — [nombre del
-   > Título], Capítulo [código] — [nombre del capítulo]).
+   formato de `citas-legales-autor` (sección 2: `Artículo [número]
+   (LFDA): [texto completo]`).
 
 ## Límites
 

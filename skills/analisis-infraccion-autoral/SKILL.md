@@ -84,10 +84,8 @@ usuario si solo hay un criterio disponible.
    acreditar X") y el fundamento correspondiente.
 2. Desarrolla el fundamento artículo por artículo, citando siempre
    `texto_completo` del corpus correspondiente.
-3. Cita la jurisprudencia aplicable con su rubro y contenido, siguiendo
-   el formato de `busqueda-criterios-autor` (contenido completo si son
-   1 a 4 criterios; abreviado con `resumen` y opción de ampliar si son 5
-   o más), con el `enlace` oficial al final de cada criterio.
+3. Cita la jurisprudencia aplicable siguiendo el formato de
+   `citas-legales-autor`.
 4. Si el usuario pide una estimación numérica de indemnización, muestra
    el cálculo del 40% mínimo sobre la base que proporcione, aclarando
    que es un piso legal y no un techo, y que el titular puede acreditar

@@ -26,10 +26,9 @@ incorporarlas.
 
 Esta skill requiere un conector capaz de buscar en el Semanario Judicial
 de la Federación (tesis y jurisprudencia de la SCJN) y, de forma
-deseable, en el Diario Oficial de la Federación (reformas legislativas) —
-por ejemplo, un conector tipo "Kriterius". Antes de ejecutar una
-búsqueda, verifica si dicho conector está disponible en el entorno
-actual.
+deseable, en el Diario Oficial de la Federación (reformas legislativas).
+Antes de ejecutar una búsqueda, verifica si dicho conector está
+disponible en el entorno actual.
 
 ## Si el conector está disponible
 
@@ -47,8 +46,9 @@ actual.
    `corpus_lfda_derecho_autor.json`,
    `corpus_infracciones_lfda.json` y
    `corpus_cpf_delitos_autor.json`.
-4. Presenta los hallazgos al usuario con su cita completa y liga oficial
-   (sigue el formato de citas-legales-mx si está instalada), agrupados
+4. Presenta los hallazgos al usuario con su cita completa y liga oficial,
+   siguiendo el formato de
+   `${CLAUDE_PLUGIN_ROOT}/skills/citas-legales-autor/SKILL.md`, agrupados
    por relevancia, y pregunta si desea que los incorpores al corpus
    empaquetado (edición del archivo JSON correspondiente) o si solo
    quiere la referencia para uso inmediato.

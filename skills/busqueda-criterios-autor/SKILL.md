@@ -23,13 +23,14 @@ empaquetado y devuélvelos en formato de citación legal mexicana correcto.
 No busques en internet ni inventes criterios: esta skill trabaja
 exclusivamente contra el archivo empaquetado.
 
-## Regla de citación obligatoria (no negociable)
+## Formato de citación (obligatorio — ver skill dedicada)
 
-Cada vez que cites una tesis o jurisprudencia del corpus, incluye su liga
-oficial (el campo `enlace`, SJF2), incluso en respuestas breves. Cada vez
-que cites un artículo de la LFDA o del Código Penal Federal, incluye el
-número de artículo y, si aplica, la fracción. Nunca formules una
-conclusión legal sin ambos elementos.
+El formato exacto de citación (jurisprudencia completa/abreviada y
+artículos de la LFDA/CPF), así como la prohibición de atribuir el
+contenido a cualquier conector o búsqueda en vivo, están definidos en
+`${CLAUDE_PLUGIN_ROOT}/skills/citas-legales-autor/SKILL.md`. Esta skill
+no repite esas reglas: consúltalas ahí y aplícalas al pie de la letra
+cada vez que entregues un criterio de este corpus.
 
 ## Fuente de datos
 
@@ -93,74 +94,18 @@ presunción de titularidad, obra por encargo, límites de interpretación
 estricta, vías civil/administrativa/penal autónomas, retos de Internet, y
 vigencia temporal).
 
-## Formato de citación (regla obligatoria, no negociable)
-
-El objetivo de esta skill es aprovechar el contenido rico del corpus, no
-actuar como un directorio de ligas. Por eso el contenido sustantivo de
-cada criterio citado (no solo el rubro y el enlace) es parte obligatoria
-de la respuesta. El **enlace oficial del SJF2 va siempre al final** de
-cada criterio, presentado explícitamente como referencia de verificación
-("para consultar el criterio íntegro y hacer tu propio 'double check' en
-la fuente oficial"), nunca como sustituto del contenido.
-
-La forma de presentar el contenido depende de cuántos criterios responden
-la consulta:
-
-### 1 a 4 criterios → contenido completo
-
-Para cada criterio, en este orden:
-
-1. Cita corta: **[RUBRO completo en mayúsculas].** [Autoridad emisora].
-   [Tipo], [Época]. Registro digital: [registro_digital].
-2. Contenido completo, según el tipo de tesis: si tiene
-   `hechos`/`criterio_juridico`/`justificacion`, preséntalos con esos tres
-   encabezados (no fusiones ni omitas ninguno); si en cambio tiene
-   `texto_integro`, reprodúcelo tal cual. No parafrasees la regla legal
-   operativa, solo la explicación circundante si se pide un resumen.
-3. Al final del criterio: "Consulta oficial (SJF2): [enlace]."
-
-Sigue la convención de citas-legales-mx en el paso 1 cuando esté
-instalada, conservando de todos modos los pasos 2 y 3.
-
-### 5 o más criterios → formato abreviado con opción de ampliar
-
-Copiar el contenido completo de cinco o más tesis en una sola respuesta
-satura al usuario y no es la mejor forma de aprovechar el corpus. En su
-lugar:
-
-1. Numera cada criterio (1, 2, 3, …) y preséntalo de forma abreviada:
-   **[N]. [RUBRO completo en mayúsculas].** [Autoridad emisora]. [Tipo],
-   [Época]. Registro digital: [registro_digital]. **Resumen:** el
-   contenido literal del campo `resumen` del corpus (no lo parafrasees).
-2. No incluyas `hechos`/`criterio_juridico`/`justificacion`/
-   `texto_integro` en esta lista abreviada — eso es lo que el usuario
-   puede pedir a continuación.
-3. Cierra la lista invitando explícitamente a pedir el contenido completo
-   de cualquiera de los criterios listados, por número o por registro
-   digital (p. ej. "dame completo el 3", "amplía el registro 2018640").
-   Nota de entorno: como esta skill opera dentro de una conversación de
-   chat, no existen botones interactivos reales — el mecanismo
-   equivalente es que el usuario responda señalando el número o registro
-   que le interesa, y entonces le entregas ese criterio en el formato
-   completo de la sección anterior (incluyendo el enlace SJF2 al final).
-4. Agrupa la lista por `categoria_codigo` y presenta primero la fuente de
-   mayor jerarquía (Pleno > Salas > Plenos de Circuito > Tribunales
-   Colegiados), conforme a las notas de jerarquía en
-   `metadata.conclusiones_y_lineamientos`.
-
-### Excepción expresa
-
-Si el usuario pide explícitamente solo el rubro y el enlace (p. ej. "solo
-dame los títulos y el link"), respeta esa instrucción y omite el
-contenido completo o el resumen, sin perder la referencia al enlace
-oficial.
+Al presentar el formato abreviado de 5 o más criterios, agrupa la lista
+por `categoria_codigo` y presenta primero la fuente de mayor jerarquía
+(Pleno > Salas > Plenos de Circuito > Tribunales Colegiados), conforme a
+las notas de jerarquía en `metadata.conclusiones_y_lineamientos`.
 
 ## Cuando no hay coincidencias
 
 Si ningún registro del corpus responde la consulta, dilo claramente y
 sugiere al usuario realizar una búsqueda en vivo en el Semanario Judicial
-de la Federación oficial (https://sjf2.scjn.gob.mx), o, si el conector
-Kriterius está disponible en este entorno, ofrece usarlo directamente.
+de la Federación oficial (https://sjf2.scjn.gob.mx), o, si hay algún
+conector de búsqueda jurisprudencial disponible en este entorno, ofrece
+usarlo directamente sin dar por hecho de cuál se trata.
 Nunca fabriques un registro digital ni un rubro.
 
 ## Advertencia de vigencia

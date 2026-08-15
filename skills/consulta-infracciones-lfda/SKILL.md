@@ -27,14 +27,11 @@ artículo como si fuera la única fuente de verdad sin antes mostrar o
 citar su texto íntegro; no inventes artículos, fracciones o incisos que
 no existan en el corpus.
 
-## Regla de citación obligatoria (no negociable)
+## Formato de citación
 
-Cita siempre el artículo (y la fracción, si aplica) de la LFDA que
-fundamenta la respuesta. Si la respuesta también hace referencia a una
-tesis del corpus de jurisprudencia de este plugin (categorías L
-"Infracciones administrativas y sanciones" o M "Delitos en materia de
-derechos de autor" — para delitos, ver `consulta-delitos-autor`, no esta
-skill), incluye igualmente su liga oficial (campo `enlace`).
+Sigue el formato de citación (artículos, identificados siempre como
+LFDA, y jurisprudencia) definido en
+`${CLAUDE_PLUGIN_ROOT}/skills/citas-legales-autor/SKILL.md`.
 
 ## Fuente de datos
 

@@ -87,10 +87,8 @@ LFDA y, cuando exista, la jurisprudencia empaquetada que la sustente.
    patrimoniales?) en un párrafo breve.
 2. Desarrolla el fundamento artículo por artículo, citando siempre
    `texto_completo` o el fragmento relevante de la LFDA.
-3. Cita la jurisprudencia aplicable con su rubro y contenido, siguiendo
-   el formato de `busqueda-criterios-autor` (contenido completo si son
-   1 a 4 criterios; abreviado con `resumen` y opción de ampliar si son 5
-   o más), con el `enlace` oficial al final de cada criterio.
+3. Cita la jurisprudencia aplicable siguiendo el formato de
+   `citas-legales-autor`.
 4. Señala expresamente los riesgos o vacíos probatorios (p. ej. "no hay
    constancia escrita de cesión de derechos patrimoniales, por lo que el
    creador conserva la titularidad patrimonial salvo prueba en

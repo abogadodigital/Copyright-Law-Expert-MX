@@ -36,14 +36,11 @@ usuario pregunta por "infracciones" en general sin especificar, aclara
 esta distinción y ofrece cubrir ambas vías (remite a
 `consulta-infracciones-lfda` para la vía administrativa).
 
-## Regla de citación obligatoria (no negociable)
+## Formato de citación
 
-Cita siempre el artículo (y la fracción, si aplica) del Código Penal
-Federal que fundamenta la respuesta, identificándolo expresamente como
-CPF y no como LFDA. Si la respuesta también hace referencia a una tesis
-del corpus de jurisprudencia de este plugin (categoría M, "Delitos en
-materia de derechos de autor"), incluye igualmente su liga oficial
-(campo `enlace`).
+Sigue el formato de citación (artículos, identificados siempre como CPF,
+y jurisprudencia) definido en
+`${CLAUDE_PLUGIN_ROOT}/skills/citas-legales-autor/SKILL.md`.
 
 ## Fuente de datos
 

@@ -4,9 +4,10 @@ Plugin de Claude especializado en derecho de autor mexicano. Empaqueta
 cuatro corpus de datos —la Ley Federal del Derecho de Autor (LFDA)
 completa, el Título Vigésimo Sexto del Código Penal Federal (delitos en
 materia de derechos de autor) y 79 tesis y jurisprudencias de la Suprema
-Corte de Justicia de la Nación— junto con diez skills funcionales para
+Corte de Justicia de la Nación— junto con once skills funcionales para
 consulta normativa, búsqueda jurisprudencial, análisis aplicado,
-redacción de escritos y generación de material docente.
+redacción de escritos, generación de material docente y un formato de
+citación unificado para todo el plugin.
 
 Las skills se activan automáticamente cuando la solicitud del usuario
 coincide con su propósito; no requieren invocación explícita.
@@ -58,8 +59,12 @@ https://www.diputados.gob.mx/LeyesBiblio/, https://sjf2.scjn.gob.mx).
    la enseñanza del derecho de autor mexicano.
 10. **actualizar-corpus-autoral** *(opcional, mantenimiento)* — busca
     tesis y reformas posteriores a las fechas de corte. Requiere un
-    conector de búsqueda jurisprudencial/normativa (p. ej. tipo
-    "Kriterius"); degrada de forma controlada si no está disponible.
+    conector de búsqueda jurisprudencial/normativa disponible en el
+    entorno; degrada de forma controlada si no está disponible.
+11. **citas-legales-autor** — define el formato único y obligatorio de
+    citación de tesis, jurisprudencia y artículos de la LFDA/CPF que usan
+    las demás skills de este plugin, evitando que cada una describa su
+    propio formato de forma inconsistente.
 
 ## Instalación
 
@@ -82,7 +87,7 @@ de este repositorio o al archivo `.plugin` empaquetado.
 
 ## Autoría
 
-**Joel A. Gómez Treviño**
+**Joel Alejandro Gómez Treviño**
 
 ## Licencia
 
